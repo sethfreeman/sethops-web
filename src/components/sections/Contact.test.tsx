@@ -52,7 +52,7 @@ describe('Contact Component', () => {
   it('displays location information', () => {
     render(<Contact />);
     
-    expect(screen.getByText(/based in san francisco, ca/i)).toBeInTheDocument();
+    expect(screen.getByText(/based in dover, ar/i)).toBeInTheDocument();
   });
 
   it('has proper semantic structure', () => {

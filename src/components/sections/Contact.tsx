@@ -183,7 +183,7 @@ export function Contact() {
               </svg>
             </Icon>
             <span className="text-sm text-muted-foreground">
-              Based in San Francisco, CA
+              Based in Dover, AR
             </span>
           </div>
         </div>
