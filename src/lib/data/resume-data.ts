@@ -49,20 +49,20 @@ export const resumeData: ResumeData = {
         'Manage a team of three contractors, providing technical guidance, code reviews, and project coordination.'
       ]
     },
-    {
-      title: 'Founder, Principal',
-      company: 'AccelerOps',
-      location: 'Remote',
-      duration: 'September 2025 - Present',
-      description: [
-        'Spearhead a DevOps consulting firm specializing in modern infrastructure practices, cloud migrations, and platform engineering.',
-        'Lead comprehensive evaluations of client\'s current DevOps practices, identifying bottlenecks, gaps, and developing roadmaps with ROI projections.',
-        'Architect and execute seamless, zero-downtime cloud migrations to AWS, Azure, or GCP, ensuring cost optimization and security compliance.',
-        'Build robust, scalable platforms for clients using Infrastructure as Code, CI/CD pipelines, and comprehensive observability to empower development teams.',
-        'Leverage Security-Left principles, embedding security by design and automated vulnerability scanning/compliance validation throughout the SDLC.',
-        'Publish deep-dive technical articles on advanced deployment strategies (blue-green, canary, rolling updates), IaC best practices, and observability for modern applications.'
-      ]
-    },
+    // {
+    //   title: 'Founder, Principal',
+    //   company: 'AccelerOps',
+    //   location: 'Remote',
+    //   duration: 'September 2025 - Present',
+    //   description: [
+    //     'Spearhead a DevOps consulting firm specializing in modern infrastructure practices, cloud migrations, and platform engineering.',
+    //     'Lead comprehensive evaluations of client\'s current DevOps practices, identifying bottlenecks, gaps, and developing roadmaps with ROI projections.',
+    //     'Architect and execute seamless, zero-downtime cloud migrations to AWS, Azure, or GCP, ensuring cost optimization and security compliance.',
+    //     'Build robust, scalable platforms for clients using Infrastructure as Code, CI/CD pipelines, and comprehensive observability to empower development teams.',
+    //     'Leverage Security-Left principles, embedding security by design and automated vulnerability scanning/compliance validation throughout the SDLC.',
+    //     'Publish deep-dive technical articles on advanced deployment strategies (blue-green, canary, rolling updates), IaC best practices, and observability for modern applications.'
+    //   ]
+    // },
     {
       title: 'DevOps Manager',
       company: 'Shell Recharge Solutions',
