@@ -30,7 +30,7 @@ describe('SEO Utility Functions', () => {
       const metadata = generateSectionMetadata('experience');
       expect(metadata.title).toContain('Work Experience');
       expect(metadata.description).toContain('work experience');
-      expect(metadata.description).toContain('12+ years');
+      expect(metadata.description).toContain('20+ years');
     });
 
     it('should generate metadata for skills section', () => {

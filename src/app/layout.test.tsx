@@ -133,7 +133,7 @@ describe('Responsive Layout Adaptation', () => {
 
       // Verify basic layout elements are present
       expect(screen.getByText('Seth Freeman')).toBeInTheDocument();
-      expect(screen.getByText('Technology Leader & DevOps Strategist')).toBeInTheDocument();
+      expect(screen.getByText(/SRE\/DevOps Architect/)).toBeInTheDocument();
       
       // Verify no horizontal overflow on mobile
       const mainElement = container.querySelector('main');
@@ -186,7 +186,7 @@ describe('Responsive Layout Adaptation', () => {
         expect(hasReadableText(heading)).toBe(true);
         
         // Check subtitle
-        const subtitle = screen.getByText('Technology Leader & DevOps Strategist');
+        const subtitle = screen.getByText(/SRE\/DevOps Architect/);
         expect(hasReadableText(subtitle)).toBe(true);
       });
     });
@@ -220,7 +220,7 @@ describe('Responsive Layout Adaptation', () => {
             
             // 1. Verify core content is present and accessible
             expect(screen.getByText('Seth Freeman')).toBeInTheDocument();
-            expect(screen.getByText('Technology Leader & DevOps Strategist')).toBeInTheDocument();
+            expect(screen.getByText(/SRE\/DevOps Architect/)).toBeInTheDocument();
             
             // 2. Verify no horizontal overflow in main content areas
             const mainElement = container.querySelector('main');

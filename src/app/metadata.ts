@@ -18,7 +18,7 @@ const baseUrl = 'https://sethops.org';
 
 // SEO-optimized title and description
 const siteTitle = `${personalInfo.name} - ${personalInfo.title}`;
-const siteDescription = `Professional portfolio of ${personalInfo.name}, a ${personalInfo.title} with 12+ years of experience in cloud architecture, DevOps engineering, and technical leadership. Specializing in AWS, Kubernetes, and scalable infrastructure solutions.`;
+const siteDescription = `Professional portfolio of ${personalInfo.name}, a ${personalInfo.title} with 20+ years of experience in cloud architecture, DevOps engineering, and technical leadership. Specializing in AWS, Kubernetes, and scalable infrastructure solutions.`;
 
 // Keywords derived from skills and experience
 const siteKeywords = [

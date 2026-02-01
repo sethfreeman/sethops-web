@@ -21,7 +21,7 @@ export function generateSectionMetadata(section: string) {
     },
     experience: {
       title: `${baseTitle} | Work Experience`,
-      description: `Detailed work experience and career history of ${personalInfo.name}, showcasing 12+ years in DevOps and technical leadership.`,
+      description: `Detailed work experience and career history of ${personalInfo.name}, showcasing 20+ years in DevOps and technical leadership.`,
     },
     skills: {
       title: `${baseTitle} | Technical Skills`,
@@ -84,7 +84,7 @@ export function generateFAQStructuredData() {
         name: `What is ${personalInfo.name}'s experience in DevOps?`,
         acceptedAnswer: {
           '@type': 'Answer',
-          text: `${personalInfo.name} has 12+ years of experience in DevOps engineering, cloud architecture, and technical leadership. He has worked with companies ranging from startups to Fortune 500 enterprises.`,
+          text: `${personalInfo.name} has 20+ years of experience in DevOps engineering, cloud architecture, and technical leadership. He has worked with companies ranging from startups to Fortune 500 enterprises.`,
         },
       },
       {
